@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JobPortal</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+    <h2>💼 JobPortal</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Jobs</a>
+        <a href="#">Login</a>
+    </nav>
+</header>
+
+<section class="search-section">
+    <h1>Find Your Dream Job 🚀</h1>
+    <input type="text" id="searchInput" placeholder="Search job title...">
+    <button onclick="searchJobs()">Search</button>
+</section>
+
+<section class="jobs" id="jobList">
+
+    <div class="job-card">
+        <h3>DevOps Engineer</h3>
+        <p>Location: Bangalore</p>
+        <button onclick="applyJob(this)">Apply</button>
+    </div>
+
+    <div class="job-card">
+        <h3>Frontend Developer</h3>
+        <p>Location: Hyderabad</p>
+        <button onclick="applyJob(this)">Apply</button>
+    </div>
+
+    <div class="job-card">
+        <h3>Backend Developer</h3>
+        <p>Location: Chennai</p>
+        <button onclick="applyJob(this)">Apply</button>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 JobPortal | All Rights Reserved
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
